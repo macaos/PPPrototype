@@ -20,6 +20,7 @@ define(function() {
 
   function makeGridItems() {
     var html = '<div class="grid-sizer"></div>';
+    var pagePath = "/PPPrototype";
     $.each(kuproductList, function(i, item) {
       html +=
         '<div class="grid-item" data-itemname="' +
@@ -44,7 +45,7 @@ define(function() {
       const pid = $(this)
         .closest(".grid-item")
         .data("itemname");
-      if (pid) location.href = "/?pid=" + pid;
+      if (pid) location.href = pagePath + "/?pid=" + pid;
     });
 
     $(".btn-fc.btn-download").on("click", function() {
@@ -52,13 +53,6 @@ define(function() {
         .closest(".grid-item")
         .data("itemname");
       window.location.href = "/items/" + pid + "/pack.min/" + pid + "-min.zip";
-    });
-
-    $(".btn-fc.btn-buy").on("click", function() {
-      // const pid = $(this).closest('.grid-item').data('itemname');
-      // paydom.openPayment(pid);
-      // ka.resources.Popoverlay.openModal(pid, 'buy-now');
-      window.open($(this).attr("etsylink"));
     });
   }
 
@@ -68,34 +62,9 @@ define(function() {
       transitionDuration: 0.2
     });
     setTimeout(function() {
-      // self.infiniteGrid.layout();
       $(".grid").css("opacity", 1);
     }, 1000);
-
-    // return;
-    // var grid = document.querySelector('.grid');
-    // imagesLoaded(grid, function() {
-    //     self.infiniteGrid = new eg.InfiniteGrid(".grid", {
-    //         horizontal: false,
-    //         transitionDuration: 0.2
-    //     });
-    //     setTimeout(function() {
-    //         self.infiniteGrid.layout();
-    //     }, 1000)
-
-    // });
   }
-
-  var kmarket = {
-    showModal: function() {
-      $("body").addClass("open-modal");
-      $("#wrapper-popup").show();
-    },
-    hideModal: function() {
-      $("body").removeClass("open-modal");
-      $("#wrapper-popup").hide();
-    }
-  };
 
   function onTouchmove(e) {
     e.preventDefault();
