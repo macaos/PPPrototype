@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Rambla:700i");
+body {
+  font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222;
+}
+
+body.darkmode {
+  background-color: #1C1D21;
+  color: #3C3C3C;
+}
+
+.width-center {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#header {
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+#header #main-logo {
+  cursor: pointer;
+}
+
+#header #main-logo > div {
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 22px;
+  color: #0D0D0D;
+}
+
+#header #main-logo > div > small {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+#header #main-logo .sub-title {
+  display: inline-block;
+  font-size: 16px;
+  color: #6777CC;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  margin-left: 7px;
+  position: absolute;
+}
+
+#header #main-logo .sub-title span {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#wrapper {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper .title {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+#wrapper a {
+  color: #3C3C3C;
+}
+
+#wrapper section {
+  margin-bottom: 50px;
+}
+
+#wrapper .container {
+  width: 500px;
+  border: 1px solid #3C3C3C;
+}
+
+#wrapper footer {
+  height: 30px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+#kareui-accordion-02 .kareui-container {
+  width: 100%;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion {
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-header {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #393836;
+  padding: 15px 0;
+  cursor: pointer;
+  background-color: #fff;
+  border-top: 1px solid #393836;
+  border-bottom: 0;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-header .title {
+  font-weight: bold;
+  font-size: 1.17em;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-header > i {
+  margin-right: 5px;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-header .icon-status {
+  margin-top: -5px;
+  font-size: 22px;
+  float: right;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-header:hover {
+  background-color: #F7F7F7;
+  color: #000;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card .card-body {
+  color: #393836;
+  padding: 0 20px 50px;
+  display: none;
+}
+
+#kareui-accordion-02 .kareui-container .kareui-accordion .card:last-child {
+  border-bottom: 1px solid #393836;
+}
+
+.kareui-tabs-01 {
+  /* 	background-color: #1C1D21; */
+}
+
+.kareui-tabs-01 a {
+  color: #3c3c3c;
+}
+
+.kareui-tabs-01 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.kareui-tabs-01 li {
+  list-style-type: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.kareui-tabs-01 button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.kareui-tabs-01 .nav-tabs {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  table-layout: fixed;
+}
+
+.kareui-tabs-01 .nav-tabs > .nav-item {
+  position: relative;
+  display: table-cell;
+  width: 1px;
+  border: 1px solid #efefef;
+  border-bottom: 1px solid #3c3c3c;
+  cursor: pointer;
+  color: #c1c1c1;
+  padding: 5px 10px;
+  text-align: center;
+  border-right: 0;
+  background-color: #efefef;
+  border-radius: 2px 2px 0 0;
+}
+
+.kareui-tabs-01 .nav-tabs > .nav-item.active {
+  border: 1px solid #3c3c3c;
+  color: #333;
+  border-bottom: 0 !important;
+  background-color: #FFF;
+}
+
+.kareui-tabs-01 .tab-content .tab-pane {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: none;
+  width: 100%;
+  border-top: 0;
+  padding: 10px;
+}
+
+.kareui-tabs-01 .tab-content .tab-pane.active {
+  display: block !important;
+}
+/*# sourceMappingURL=document.min.css.map */

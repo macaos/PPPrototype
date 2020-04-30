@@ -1,0 +1,53 @@
+<Fragment id="{scoped}" class="posotion-absolute view-content">
+    <link href="./view/{scoped}.css?bust={{version}}" rel="stylesheet" >
+    <style>
+        #scoped .title{
+            color: blueviolet;
+        }
+        #scoped .menu {
+            
+        }
+        #scoped {
+            
+        }
+    </style>
+    <section id="modal-buy-now" class="container-modal">
+        <div class="icon-kareui-close btn-close"></div>
+        <div class="util-text-center">
+            <div class="icon-kareui-shopping-cart cart"></div>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" pid="map-pid" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" id="ppid-input" name="hosted_button_id" value="">
+            <ul>
+                <li class="dp-pid"></li>
+                <li>USD <span class="dp-price"></span> (VAT included.)</li>
+                <li>
+                    <input type="hidden" name="on0" value="YOUR E-MAIL">Enter your email to receive the product
+                </li>
+                <div>
+                    <input type="email" name="os0" class="email-input" maxlength="200" required type="email" placeholder="Enter your email" oninvalid="this.setCustomValidity('Enter your email to receive the product')" oninput="this.setCustomValidity('')">
+                    <div class="icon-kareui-info-circled message-validation display-none">Please enter a valid email address.<br>
+                        e.g fella@example.com</div>
+                    <li>We will send the component to you <br> &nbsp; &nbsp; &nbsp;by email after purchase.</li>
+                </div>
+            </ul>
+            <div class="btn-submit-container">
+                <input type="submit" value="BUY NOW" id="btn-paypal-submit" class="btn-paypal-submit" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/ko_KR/i/scr/pixel.gif" width="1" height="1">
+            </div>
+        </form>
+    </section>
+    <section id="modal-buy-complete" class="container-modal">
+        <div class="icon-kareui-close btn-close"></div>
+        <div class="util-text-center">
+            <div class="icon-kareui-paypal-1 pcomplete"></div>
+        </div>
+        <ul>
+            <li>Thanks for your payment!</li>
+            <li>We will send you a download link by email.</li>
+            <li>If you do not get an email within 1 hour, <br> &nbsp; &nbsp; &nbsp;please contact buy@kareui.com
+            </li>
+        </ul>
+    </section>
+</Fragment>

@@ -1,0 +1,114 @@
+#modal-buy-complete {
+  text-align: center;
+}
+
+#modal-buy-complete_background {
+  -webkit-transition: all 0.2s 0.2s;
+  transition: all 0.2s 0.2s;
+}
+
+#modal-buy-complete,
+#modal-buy-complete_wrapper {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#modal-buy-complete {
+  -webkit-transform: translateX(0) translateY(-40%);
+          transform: translateX(0) translateY(-40%);
+}
+
+.popup_visible #modal-buy-complete {
+  -webkit-transform: translateX(0) translateY(0);
+          transform: translateX(0) translateY(0);
+}
+
+#modal-buy-now_background {
+  -webkit-transition: all 0.2s 0.2s;
+  transition: all 0.2s 0.2s;
+}
+
+#modal-buy-now,
+#modal-buy-now_wrapper {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+#modal-buy-now {
+  -webkit-transform: translateX(0) translateY(-40%);
+          transform: translateX(0) translateY(-40%);
+}
+
+.popup_visible #modal-buy-now {
+  -webkit-transform: translateX(0) translateY(0);
+          transform: translateX(0) translateY(0);
+}
+
+.container-modal {
+  padding: 20px 20px;
+  background-color: #fff;
+}
+
+.container-modal .btn-close {
+  display: inline-block;
+  float: right;
+  cursor: pointer;
+}
+
+.container-modal .cart {
+  font-size: 55px;
+  width: 100px;
+  padding-left: 10px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.container-modal .pcomplete {
+  font-size: 55px;
+  width: 100px;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.container-modal .btn-submit-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container-modal .btn-submit-container .btn-paypal-submit {
+  color: #fff;
+  font-weight: bold;
+  background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+  font-size: 20px;
+  border-radius: 30px;
+  padding: 5px 40px;
+  height: auto;
+}
+
+.container-modal .email-input {
+  width: 100%;
+}
+
+.container-modal .message-validation {
+  padding-left: 10px;
+  font-size: 13px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  line-height: 15px;
+  color: #DC1C28;
+  letter-spacing: 1px;
+}
+
+.bullet-arrow02 {
+  padding: 0 0 0 11px;
+  font-size: 12px;
+  background: url(../image/bullet-arrow01.png) no-repeat 0 4px;
+  letter-spacing: -0.5px;
+  background-size: 4px 6px;
+  -webkit-background-size: 4px 6px;
+  color: #5a5b67;
+  text-align: left;
+}
+/*# sourceMappingURL=Popoverlay.css.map */

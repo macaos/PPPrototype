@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta property="og:url" content="https://kareui.com/?bfcd=DOGTAGmain" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Macao's PPPrototype" />
+    <meta property="og:description" content="component prototype store" />
+    <meta
+      property="og:image"
+      content="https://kareui.com/imgs/thumb-main.png"
+    />
+    <title>Macao's PPPrototype</title>
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="./css/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="./css/skeleton.css" rel="stylesheet" type="text/css" />
+    <link
+      href="./css/app.css?bust={{version}}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="./css/fontello.css?bust={{version}}"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://naver.github.io/egjs/latest/dist/pkgd/infiniteGrid.pkgd.min.js"></script>
+  </head>
+
+  <body>
+    <!-- gtagjs -->
+    <script>
+      $(document).ready(function() {
+        $("#gtag-container").load("./js/gtagjs.html?bust={{version}}");
+      });
+    </script>
+    <span id="gtag-container"></span>
+    <!-- gtagjs -->
+    <div id="wrapper">
+      <div id="wrapper-modal"></div>
+      <div id="wrapper-view"></div>
+    </div>
+    <div id="wrapper-popoverlay"></div>
+    <script
+      data-main="./js/app.js?bust={{version}}"
+      src="./kjs/require.js"
+    ></script>
+  </body>
+</html>

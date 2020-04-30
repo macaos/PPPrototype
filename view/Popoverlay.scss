@@ -1,0 +1,100 @@
+#modal-buy-complete {
+    text-align: center;
+}
+
+// popup slide animation
+#modal-buy-complete_background {
+    transition: all 0.2s 0.2s;
+}
+
+#modal-buy-complete,
+#modal-buy-complete_wrapper {
+    transition: all 0.3s ease-out;
+}
+
+#modal-buy-complete {
+    transform: translateX(0) translateY(-40%);
+}
+
+.popup_visible #modal-buy-complete {
+    transform: translateX(0) translateY(0);
+}
+
+// popup slide animation
+#modal-buy-now_background {
+    transition: all 0.2s 0.2s;
+}
+
+#modal-buy-now,
+#modal-buy-now_wrapper {
+    transition: all 0.3s ease-out;
+}
+
+#modal-buy-now {
+    transform: translateX(0) translateY(-40%);
+}
+
+.popup_visible #modal-buy-now {
+    transform: translateX(0) translateY(0);
+}
+
+.container-modal {
+    padding: 20px 20px;
+    background-color: #fff;
+    .btn-close {
+        display: inline-block;
+        float: right;
+        cursor: pointer;
+    }
+    .cart {
+        font-size: 55px;
+        width: 100px;
+        padding-left: 10px;
+        border-bottom: 1px solid #000;
+        display: inline-block;
+        margin-bottom: 30px;
+    } 
+    .pcomplete {
+        font-size: 55px;
+        width: 100px;
+        border-bottom: 1px solid #000;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    .btn-submit-container {
+        text-align: center;
+        margin-top: 50px;
+        .btn-paypal-submit {
+            color: #fff;
+            font-weight: bold;
+            background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);
+            font-size: 20px;
+            border-radius: 30px;
+            padding: 5px 40px;
+            height: auto;
+        }
+    }
+    .email-input {
+        width: 100%;
+    }
+    .message-validation {
+        padding-left: 10px;
+        font-size: 13px;
+        margin-bottom: 10px;
+        margin-top: -10px;
+        line-height: 15px;
+        color: #DC1C28;
+        letter-spacing: 1px;
+    }
+}
+
+.bullet-arrow02 {
+    padding: 0 0 0 11px;
+    font-size: 12px;
+    background: url(../image/bullet-arrow01.png) no-repeat 0 4px;
+    letter-spacing: -0.5px;
+    background-size: 4px 6px;
+    -webkit-background-size: 4px 6px;
+    color: #5a5b67;
+    text-align: left;
+}
