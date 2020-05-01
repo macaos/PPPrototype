@@ -32,7 +32,7 @@ define(function() {
         item.publicName +
         '.png" /></div>' +
         '<div class="title">' +
-        item.publicName.replace(/kareui-/, "") +
+        item.publicName.replace(/macaos-/, "") +
         "</div>" +
         '<div class="btns-fc" style="height:80px;">' +
         "</div>" +
