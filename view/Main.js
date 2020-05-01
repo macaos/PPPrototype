@@ -20,7 +20,7 @@ define(function() {
 
   function makeGridItems() {
     var html = '<div class="grid-sizer"></div>';
-    var pagePath = "/PPPrototype";
+    var pagePath = "/ppprototype";
     $.each(kuproductList, function(i, item) {
       html +=
         '<div class="grid-item" data-itemname="' +

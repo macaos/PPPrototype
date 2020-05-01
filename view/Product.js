@@ -1,7 +1,7 @@
 define(function() {
   let ka;
   let productInfo;
-  const pagePath = "/PPPrototype";
+  const pagePath = "/ppprototype";
   let self = {
     initialization: function(k) {
       ka = k;
