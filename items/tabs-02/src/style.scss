@@ -1,0 +1,89 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(226, 226, 226);
+}
+* {
+	box-sizing: border-box !important;
+}
+.mobile-frame {
+	width: 375px;
+	height: 667px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	.macaos-tabs-02 {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		$ku-border-color: #3c3c3c;
+		$ku-menu-width: 80px;
+		a {
+			color: #3c3c3c;
+		}
+		ul {
+			padding: 0;
+			margin: 0;
+		}
+		li {
+			list-style-type: none;
+			box-sizing: border-box;
+		}
+		.btn-group {
+			margin: 30px 20px 20px;
+			width: auto;
+			display: inline-block;
+			.nav-tabs {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+				& > .nav-item {
+					position: relative;
+					top: 10px;
+					float: left;
+					width: $ku-menu-width;
+					cursor: pointer;
+					cursor: pointer;
+					color: #aeb7c6;
+					text-align: center;
+					transition: 0.3s cubic-bezier(0.3, 0.7, 0.5, 1.35);
+					&.active {
+						color: #4900e9;
+						border-bottom: 0;
+						top: 5px;
+						font-weight: 700;
+					}
+				}
+			}
+			.nav-active {
+				background-color: #dbdfe5;
+				display: inline-block;
+				width: 100%;
+				.underline {
+					width: $ku-menu-width;
+					height: 2px;
+					background-color: #4900e9;
+					position: relative;
+				}
+			}
+		}
+
+		.tab-content {
+			position: relative;
+			.tab-pane {
+				height: 600px;
+				display: inline-block;
+				float: left;
+				padding: 0 30px;
+				height: 400px;
+				color: #aeb7c6;
+			}
+		}
+	}
+}

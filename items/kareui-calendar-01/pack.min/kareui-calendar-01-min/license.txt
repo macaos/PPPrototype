@@ -1,9 +1,0 @@
-[License GPL2.0]
-    Number of Users (or Seats) Single User (or Seat)
-    Can be used for
-    - Use them for personal use
-    - Use them for commercial use
-    - Change them however you like
-
-    Cannot be used for
-    - Resell any modification of the asset on its own

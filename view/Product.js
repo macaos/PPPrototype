@@ -32,11 +32,9 @@ define(function() {
       .$(".map-demo")
       .attr(
         "src",
-        "/items/" + pid + "/pack.min/dist/index.html?bust={{version}}"
+        pagePath + "/items/" + pid + "/dist/index.html?bust={{version}}"
       );
-    self
-      .$(".map-zipurl")
-      .attr("href", "/items/" + pid + "/pack.min/" + pid + "-min.zip");
+    self.$(".map-zipurl").attr("href", pagePath + "/items/" + pid + ".zip");
     self.$(".dp-zip-info").html(itemInfo.zipInfo);
     self.$(".codepen-include." + pid).show();
   }

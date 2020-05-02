@@ -1,0 +1,73 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #e45173;
+}
+* {
+	box-sizing: border-box !important;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+.macaos-navigation-02 {
+	font-family: "Roboto Mono", monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	.ku-btn {
+		position: absolute;
+		cursor: pointer;
+		width: 50px;
+		height: 50px;
+		border-radius: 50px;
+	}
+	.btn-main {
+		color: #e45173;
+		z-index: 1;
+		background-color: rgb(50, 51, 56);
+		padding: 15px 14px;
+		background-color: #f7e6f3;
+		-webkit-box-shadow: 8px 10px 17px -4px rgba(163, 50, 103, 0.67);
+		-moz-box-shadow: 8px 10px 17px -4px rgba(163, 50, 103, 0.67);
+		box-shadow: 8px 10px 17px -4px rgba(163, 50, 103, 0.67);
+	}
+	.btn-sub {
+		display: none;
+		color: #1038c8;
+		padding: 14px 14px;
+		background-color: #f7e6f3;
+		-webkit-box-shadow: 8px 10px 17px -10px rgba(163, 50, 103, 0.67);
+		-moz-box-shadow: 8px 10px 17px -10px rgba(163, 50, 103, 0.67);
+		box-shadow: 8px 10px 17px -10px rgba(163, 50, 103, 0.67);
+		transition: margin-left 0.3s ease;
+		.ku-label {
+			display: none;
+			right: 55px;
+			top: 16px;
+			position: absolute;
+			font-weight: bold;
+		}
+		&:hover {
+			margin-left: 7px;
+			background-image: linear-gradient(
+				to top,
+				#dad4ec 0%,
+				#dad4ec 1%,
+				#f3e7e9 100%
+			);
+		}
+	}
+}

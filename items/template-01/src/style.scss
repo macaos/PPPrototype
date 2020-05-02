@@ -1,0 +1,93 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #1c1d21;
+}
+
+* {
+	box-sizing: border-box !important;
+}
+
+.macaos-template-01 {
+	.float-left {
+		float: left;
+	}
+	.col-per-50 {
+		position: relative;
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+	width: 375px;
+	height: 667px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	#page01 {
+		min-width: 320px;
+		.top-image {
+			height: 237px;
+			margin-bottom: 30px;
+			background-size: cover;
+			background-image: url(https://macaos.github.io/resource/img/photo-10.jpeg);
+			background-position: center center;
+			background-repeat: no-repeat no-repeat;
+		}
+		.info-me {
+			height: 100px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.photo {
+			width: 60px;
+			height: 60px;
+			overflow: hidden;
+			border-radius: 30px;
+			border: 1px solid #ccc;
+			-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+			box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+		}
+		.profile {
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+		.name {
+			font-weight: 600;
+			color: #464d6b;
+		}
+		.since {
+			font-size: 13px;
+			color: #9fa6b0;
+		}
+		.info-description {
+			color: #8e98a2;
+			height: 127px;
+		}
+		.info-data {
+			& > .row-px {
+				border-top: 1px solid #dbdbdb;
+				padding-top: 22px;
+			}
+		}
+		.fallow {
+			& > div:first-child {
+				color: #3d4766;
+				font-size: 22px;
+				font-weight: 600;
+				letter-spacing: 1.5;
+			}
+			& > div:last-child {
+				color: #c8cbd2;
+				font-size: 12px;
+			}
+		}
+		.ku-section {
+			padding: 0 25px;
+		}
+	}
+}

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+.macaos-calendar-01 {
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-color: #dedcdd;
+}
+.macaos-calendar-01 td {
+  padding: 0;
+  margin: 0;
+}
+.macaos-calendar-01 .mobile-frame {
+  text-align: center;
+  -webkit-box-shadow: 4px 3px 5px 3px rgba(69, 60, 53, 0.58);
+  -moz-box-shadow: 4px 3px 5px 3px rgba(69, 60, 53, 0.58);
+  box-shadow: 4px 3px 5px 3px rgba(69, 60, 53, 0.58);
+  width: 430px;
+  height: 505px;
+  background-color: #e1dfe0;
+  overflow: hidden;
+}
+.macaos-calendar-01 .mobile-frame .cal-header {
+  height: 40px;
+  background-color: #393836;
+  text-align: right;
+}
+.macaos-calendar-01 .mobile-frame .cal-header #str-year {
+  margin: 5px 15px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  color: #fff;
+  display: inline-block;
+}
+.macaos-calendar-01 .mobile-frame .cal-body {
+  margin-top: 50px;
+  background-clolr: #6054ef;
+  display: inline-block;
+}
+.macaos-calendar-01 .mobile-frame .cal-body td {
+  width: 41px;
+  height: 40px;
+  text-align: center;
+  font-size: 17px;
+  border: 0;
+  color: #454344;
+}
+.macaos-calendar-01 .mobile-frame .cal-body td .sat,
+.macaos-calendar-01 .mobile-frame .cal-body td .sun {
+  opacity: 0.5;
+}
+.macaos-calendar-01 .mobile-frame .cal-body td.today {
+  position: relative;
+}
+.macaos-calendar-01 .mobile-frame .cal-body td.today:after {
+  -webkit-animation: blink 2s linear infinite;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  background-color: #ca8b7d;
+  border-radius: 10px;
+  margin-left: -3px;
+  margin-bottom: 4px;
+}
+.macaos-calendar-01 .mobile-frame #tb-calendar-ym {
+  display: inline-block;
+  font-size: 22px;
+}
+.macaos-calendar-01 .mobile-frame #btn-prev,
+.macaos-calendar-01 .mobile-frame #btn-next {
+  display: inline-block;
+  width: 10px;
+  height: 5px;
+  background-color: #454344;
+  border-radius: 3px;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.macaos-calendar-01 .mobile-frame #btn-prev:hover,
+.macaos-calendar-01 .mobile-frame #btn-next:hover {
+  height: 9px;
+  margin-top: 8px;
+}
+.macaos-calendar-01 .mobile-frame #btn-prev {
+  float: left;
+  margin-left: 5px;
+}
+.macaos-calendar-01 .mobile-frame #btn-next {
+  float: right;
+  margin-right: 5px;
+}
+.macaos-calendar-01 .blink {
+  -webkit-animation: blink 1.5s linear infinite;
+}
+@-webkit-keyframes blink {
+  50% {
+    background-color: #ca8b7d00;
+  }
+  100% {
+    background-color: #ca8b7d;
+  }
+}

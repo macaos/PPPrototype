@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+}
+
+.macaos-dropdown-02 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  background-color: #1260f0;
+}
+.macaos-dropdown-02 ul {
+  padding: 0;
+  margin: 0;
+}
+.macaos-dropdown-02 li {
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.macaos-dropdown-02 button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.macaos-dropdown-02 .ku-btn-dropdown .btn {
+  border: 1px solid #d0d0d0;
+  padding: 10px 15px;
+  background-color: #fff;
+  min-width: 171px;
+  text-align: left;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.macaos-dropdown-02 .ku-btn-dropdown .btn:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+.macaos-dropdown-02 .ku-btn-dropdown .btn .icon {
+  float: right;
+}
+.macaos-dropdown-02 .ku-btn-dropdown .btn .icon:before {
+  margin-right: -3px;
+}
+.macaos-dropdown-02 .ku-dropdown-items {
+  display: none;
+}
+.macaos-dropdown-02 .ku-dropdown-items .ku-dropdown-item {
+  padding: 5px 15px;
+  min-width: 169px;
+  text-align: left;
+}
+.macaos-dropdown-02 .ku-dropdown-items .ku-dropdown-item:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+.macaos-dropdown-02 .ku-dropdown-bubble {
+  display: none;
+  border: 1px solid #d0d0d0;
+  border-radius: 2px;
+  margin-top: 1px;
+  display: inline-block;
+  background-color: #fff;
+  position: absolute;
+  padding: 5px 0;
+}

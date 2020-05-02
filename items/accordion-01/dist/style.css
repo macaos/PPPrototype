@@ -1,0 +1,37 @@
+.macaos-accordion-01 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background-color: #e06654;
+}
+.macaos-accordion-01 .macaos-accordion {
+  -webkit-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.6);
+  box-shadow: -1px 0px 21px 0px rgba(0, 0, 0, 0.6);
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.macaos-accordion-01 .macaos-accordion .card .card-header {
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #f7f1e3;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #e06654;
+  border-bottom: 1px solid #be4a3b;
+}
+.macaos-accordion-01 .macaos-accordion .card .card-header > i {
+  margin-right: 5px;
+}
+.macaos-accordion-01 .macaos-accordion .card .card-body {
+  background-color: #d05a4b;
+  color: #f7f1e3;
+  padding: 10px 20px;
+  display: none;
+}
+.macaos-accordion-01 .macaos-accordion .card:last-child .card-header {
+  border-bottom: 0;
+}
