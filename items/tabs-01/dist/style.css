@@ -1,0 +1,92 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6a72f2;
+}
+
+* {
+  box-sizing: border-box !important;
+}
+
+.mobile-frame {
+  width: 375px;
+  height: 667px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 50px 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 10px 10px 33px 9px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: 10px 10px 33px 9px rgba(0, 0, 0, 0.27);
+  box-shadow: 10px 10px 33px 9px rgba(0, 0, 0, 0.27);
+}
+
+.macaos-tabs-01 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.macaos-tabs-01 a {
+  color: #6a72f2;
+}
+.macaos-tabs-01 ul {
+  padding: 0;
+  margin: 0;
+}
+.macaos-tabs-01 li {
+  list-style-type: none;
+  box-sizing: border-box;
+}
+.macaos-tabs-01 button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.macaos-tabs-01 .nav-tabs {
+  overflow: hidden;
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  table-layout: fixed;
+}
+.macaos-tabs-01 .nav-tabs > .nav-item {
+  position: relative;
+  display: table-cell;
+  width: 1px;
+  border: 1px solid #6a72f2;
+  cursor: pointer;
+  color: #abaff9;
+  padding: 5px 10px;
+  text-align: center;
+  border-right: 0;
+  background-color: #8289f942;
+  border-radius: 2px 2px 0 0;
+}
+.macaos-tabs-01 .nav-tabs > .nav-item:last-child {
+  border-right: 1px solid #6a72f2;
+}
+.macaos-tabs-01 .nav-tabs > .nav-item.active {
+  color: #6a72f2;
+  border-bottom: 0;
+  background-color: #fff;
+}
+.macaos-tabs-01 .tab-content .tab-pane {
+  color: #6a72f2;
+  box-sizing: border-box;
+  display: none;
+  width: 100%;
+  border-top: 0;
+  padding: 20px 10px;
+}
+.macaos-tabs-01 .tab-content .tab-pane.active {
+  display: block !important;
+}
